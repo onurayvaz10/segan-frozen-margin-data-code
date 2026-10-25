@@ -1,4 +1,4 @@
-# Frozen stability margin after resistive load shedding: data and code (archive v1.1)
+# Frozen stability margin after resistive load shedding: data and code (archive v1.2)
 
 Authors: Onur Ayvaz and Özgür Tomak. This archive accompanies a manuscript prepared for submission to *Sustainable
 Energy, Grids and Networks*. It is a selected public mirror of Supplementary Material S1: it contains the model and
@@ -6,6 +6,12 @@ test code, the sealed HDL2b member-level outputs with their hash list, the post-
 cross-checks of 25 October 2026. The fixed protocol texts, the decision log and the internal audit records are part
 of Supplementary Material S1 submitted to the journal.
 
+**Archive v1.2 (25 October 2026, current):** `SEGAN_research_data_code_v1.2.zip` adds the folder
+`revision_extensions_20261025/`: a separately coded implementation that reproduces every primary result of the sealed
+run, derivative checks, a computational-cost benchmark, cluster-bootstrap statistics, a reference audit, unit tests and
+a prospective, internally protocol-fixed sign test with a second (three-bus) test system, run once (verdict: not
+evaluable, sign diversity insufficient). One command: `python -I revision_extensions_20261025/reproduce_extensions.py`.
+The v1.0 and v1.1 archives are kept unchanged for the record.
 **One-click reproduction on Google Colab:** open `colab/SEGAN_S1_Colab.ipynb` in Colab (*File ▸ Upload notebook*,
 or *File ▸ Open notebook ▸ GitHub* with this repository), choose *Runtime ▸ Run all* and upload the archive zip when
 asked. The notebook checks the hash lists, builds an isolated Python 3.12 environment with the pinned versions, runs
