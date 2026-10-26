@@ -12,6 +12,9 @@ run, derivative checks, a computational-cost benchmark, cluster-bootstrap statis
 a prospective, internally protocol-fixed sign test with a second (three-bus) test system, run once (verdict: not
 evaluable, sign diversity insufficient). One command: `python -I revision_extensions_20261025/reproduce_extensions.py`.
 The v1.0 and v1.1 archives are kept unchanged for the record.
+
+**Additions of 26 October 2026 (S1 additions):** `SEGAN_research_data_code_development_20261026.zip` (development_20261026: extended engine, predictor-stage records and the TSV run) and `SEGAN_research_data_code_p92_20261026.zip` (p92_20261026: the additional studies of manuscript Sections 5.5, 6.7, 6.8 and 6.10 and S2 Appendix G - Newton-kappa estimator, current-limit stress, ramped shedding, kappa-triggered relinearization, learned baseline and the switching-level checks, with their protocols, code-audit reports and sealed outputs). Both are byte-identical to the archives submitted as S1 additions; see the README inside each archive.
+
 **One-click reproduction on Google Colab:** open `colab/SEGAN_S1_Colab.ipynb` in Colab (*File ▸ Upload notebook*,
 or *File ▸ Open notebook ▸ GitHub* with this repository), choose *Runtime ▸ Run all* and upload the archive zip when
 asked. The notebook checks the hash lists, builds an isolated Python 3.12 environment with the pinned versions, runs
