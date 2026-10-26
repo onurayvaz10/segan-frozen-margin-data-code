@@ -1,0 +1,26 @@
+{
+  "title": "Frozen stability margin after resistive load shedding: data and code",
+  "upload_type": "software",
+  "description": "Public mirror of Supplementary Material S1 of the manuscript on the decision-induced bias of frozen small-signal margins after resistive load shedding in islanded grid-forming microgrids with constant power loads (submitted to Sustainable Energy, Grids and Networks). Contains the model and test code, sealed outputs with hash lists, post-hoc analyses, the development_20261026 addition and the p92_20261026 addition (Newton-kappa estimator, current-limit stress, ramped shedding, kappa-triggered relinearization, learned baseline, switching-level checks). See README.md and SHA256SUMS.",
+  "creators": [
+    {
+      "name": "Ayvaz, Onur",
+      "affiliation": "Giresun University, Graduate School of Natural and Applied Sciences, Electrical and Electronics Engineering MSc Programme",
+      "orcid": "0009-0000-9522-7790"
+    },
+    {
+      "name": "Tomak, Özgür",
+      "affiliation": "Giresun University, Faculty of Engineering, Department of Computer Engineering",
+      "orcid": "0000-0003-2993-6913"
+    }
+  ],
+  "keywords": [
+    "constant power load",
+    "grid-forming inverter",
+    "islanded microgrid",
+    "resistive load shedding",
+    "small-signal stability margin"
+  ],
+  "license": "other-open",
+  "notes": "Code under the MIT licence, data and documents under CC BY 4.0; see LICENSE.md."
+}
